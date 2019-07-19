@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>ExpenseAnalysisDemo</AssemblyName>
+    <RootNamespace>ExpenseAnalysisDemo</RootNamespace>
+	<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DefineConstants>TRACE;NETCORE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DefineConstants>TRACE;NETCORE</DefineConstants>
+  </PropertyGroup>  
+  
+  <ItemGroup>
+	<Resource Include="**\*.png" />
+	<Resource Include="App.ico" />
+	<PackageReference Include="Syncfusion.Compression.Base" version="17.2.0.35" />
+	<PackageReference Include="Syncfusion.Data.WPF" version="17.2.0.35" />
+	<PackageReference Include="Syncfusion.DataGridExcelExport.Wpf" version="17.2.0.35" />
+	<PackageReference Include="Syncfusion.Licensing" version="17.2.0.35" />
+	<PackageReference Include="Syncfusion.Pdf.Wpf" version="17.2.0.35" />
+	<PackageReference Include="Syncfusion.SfChart.WPF" version="17.2.0.35" />
+	<PackageReference Include="Syncfusion.SfGrid.WPF" version="17.2.0.35" />
+	<PackageReference Include="Syncfusion.Shared.WPF" version="17.2.0.35" />
+	<PackageReference Include="Syncfusion.XlsIO.Wpf" version="17.2.0.35" />
+	<PackageReference Include="Syncfusion.XlsIO.Wpf" version="17.2.0.35" />
+  </ItemGroup>
+</Project>
