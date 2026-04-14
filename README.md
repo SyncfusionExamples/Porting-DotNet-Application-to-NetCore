@@ -1,4 +1,4 @@
-# Porting-DotNet-Application-to-NetCore
+# Porting a .NET application to .NET Core
 
 This sample demonstrates porting Syncfusion WPF 'Expense Analysis' Showcase Demo application to NetCore
 
